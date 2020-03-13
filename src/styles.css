@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ddd;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: calc(100%);
+}
+
+.incrementor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.incrementor button {
+  border: 0;
+  background-color: #666;
+  color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.incrementor .counter {
+  margin: 0 2rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.error-notification {
+  color: #550707;
+  background-color: #faeded;
+  border: 1px solid #550707;
+  padding: 0 1.5rem 1rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+.error-notification summary {
+  cursor: pointer;
+}
